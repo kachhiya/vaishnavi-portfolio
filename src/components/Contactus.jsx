@@ -13,9 +13,9 @@ const Contactus = () => {
     return (
         <section
             id="contact"
-            className="py-20 bg-[#111] text-white"
+            className="py-20 bg-[#111] text-white w-full flex items-center justify-center"
         >
-            <div className="max-w-6xl mx-auto px-4">
+            <div className="w-[85%]">
                 <h2 className="text-4xl font-bold text-center">
                     Get In <span className="text-purple-500">Touch</span>
                 </h2>
@@ -101,9 +101,9 @@ const Contactus = () => {
                     
                             <div className="flex gap-4">
                                 <a href="https://www.linkedin.com/in/vaishnavi-kachhiya-5523b1238/" target="_blank" className="bg-gray-800 p-3 rounded-full hover:bg-purple-600 transition">
-                                  <img src={instagram} alt="instagram" className="w-5 h-5" /></a>
+                                  <img src={linkedin} alt="instagram" className="w-5 h-5" /></a>
                                 <a href="https://www.instagram.com/vaishnavi_28024/?hl=en" target="_blank" className="bg-gray-800 p-3 rounded-full hover:bg-purple-600 transition">
-                                    <img src={linkedin} alt="instagram" className="w-5 h-5" /></a>
+                                    <img src={instagram} alt="instagram" className="w-5 h-5" /></a>
                                 
                             </div>
                         </div>
