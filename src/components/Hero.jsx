@@ -87,7 +87,7 @@ const Hero = () => {
 
                 {/* IMAGE */}
                 <div className="flex justify-center order-1 md:order-2">
-                    <div className="w-52 h-52 sm:w-56 sm:h-56 md:w-80 md:h-80 lg:w-96 lg:h-96
+                    <div className="w-57 h-57 sm:w-65 sm:h-65 md:w-80 md:h-80 lg:w-96 lg:h-96
                           rounded-full overflow-hidden border-4 border-purple-500 shadow-lg">
                         <img
                             src={profile}
