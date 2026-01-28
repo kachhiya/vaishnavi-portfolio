@@ -31,22 +31,13 @@ const Hero = () => {
     return (
         <section
             id="home"
-            className="min-h-screen w-full bg-[#111] flex items-center justify-center "
+            className="min-h-screen w-full bg-[#111] flex items-center justify-center
+                 pt-28 md:pt-32 px-6"
         >
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl w-[85%]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center
+                      max-w-7xl w-full">
 
-                {/* IMAGE – mobile first */}
-                <div className="flex justify-center order-1 md:order-2">
-                    <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-purple-500 shadow-lg">
-                        <img
-                            src={profile}
-                            alt="Vaishnavi"
-                            className="w-full h-full object-cover object-top"
-                        />
-                    </div>
-                </div>
-
-                {/* TEXT – mobile second */}
+                {/* TEXT */}
                 <div className="text-center md:text-left order-2 md:order-1">
                     <h1 className="text-white text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
                         Hi, I'm <span className="text-purple-500">Vaishnavi</span>
@@ -87,8 +78,19 @@ const Hero = () => {
                     </div>
                 </div>
 
-            </div>
+                {/* IMAGE */}
+                <div className="flex justify-center order-1 md:order-2">
+                    <div className="w-44 h-44 sm:w-56 sm:h-56 md:w-80 md:h-80 lg:w-96 lg:h-96
+                          rounded-full overflow-hidden border-4 border-purple-500 shadow-lg">
+                        <img
+                            src={profile}
+                            alt="Vaishnavi"
+                            className="w-full h-full object-cover object-top"
+                        />
+                    </div>
+                </div>
 
+            </div>
         </section>
     );
 };
