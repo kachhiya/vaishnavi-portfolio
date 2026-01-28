@@ -56,14 +56,18 @@ const Hero = () => {
                     <div className="mt-8 flex flex-wrap justify-center md:justify-start gap-4">
                         <a
                             href="#projects"
-                            className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-lg font-medium transition"
+                            className="bg-purple-500 hover:bg-purple-600 text-white 
+               px-4 py-2 sm:px-5 sm:py-2.5 
+               rounded-lg font-medium transition"
                         >
                             View Work
                         </a>
 
                         <a
                             href="#contact"
-                            className="border border-purple-500 text-purple-400 px-6 py-3 rounded-lg font-medium hover:bg-purple-500 hover:text-white transition"
+                            className="border border-purple-500 text-purple-400 
+               px-4 py-2 sm:px-5 sm:py-2.5 
+               rounded-lg font-medium hover:bg-purple-500 hover:text-white transition"
                         >
                             Contact Me
                         </a>
@@ -71,11 +75,14 @@ const Hero = () => {
                         <a
                             href={resume}
                             download="Vaishnavi_Resume.pdf"
-                            className="border border-purple-500 text-purple-400 px-6 py-3 rounded-lg font-medium hover:bg-purple-500 hover:text-white transition"
+                            className="border border-purple-500 text-purple-400 
+               px-4 py-2 sm:px-5 sm:py-2.5 
+               rounded-lg font-medium hover:bg-purple-500 hover:text-white transition"
                         >
                             Download Resume
                         </a>
                     </div>
+
                 </div>
 
                 {/* IMAGE */}
