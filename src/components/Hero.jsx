@@ -32,7 +32,7 @@ const Hero = () => {
         <section
             id="home"
             className="min-h-screen w-full bg-[#111] flex items-center justify-center
-                 pt-28 md:pt-32"
+                 pt-25 md:pt-32"
         >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center
                        w-[85%]">
