@@ -30,7 +30,7 @@ const Experience = () => {
             id="experience"
             className="pt-16 sm:pt-20 bg-[#111] text-white w-full flex items-center justify-center"
         >
-            <div className="w-[85%]">
+            <div className="w-[85%] flex flex-col items-center">
                 <h2 className="text-2xl sm:text-4xl font-bold text-center">
                     Work <span className="text-purple-500">Experience</span>
                 </h2>
